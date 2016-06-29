@@ -9936,4 +9936,7 @@ $(window).on('resize', function(){
   $('.big-block').css({'height':cw+'px'});
 });
 
+$(document).ready(function(){
+  $(window).trigger('resize');
+});
 

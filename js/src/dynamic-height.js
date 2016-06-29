@@ -6,4 +6,4 @@ $(window).on('resize', function(){
 
 $(document).ready(function(){
   $(window).trigger('resize');
-})
+});
